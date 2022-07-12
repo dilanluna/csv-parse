@@ -1,0 +1,50 @@
+{
+  "name": "@dilanluna/csv-parser",
+  "version": "1.0.0",
+  "description": "Parse csv files into javascript objects",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "clean": "rimraf lib",
+    "transpile": "babel src --out-dir lib --extensions .ts --source-maps",
+    "typing": "tsc --emitDeclarationOnly",
+    "build": "npm run clean && npm run transpile && npm run typing"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dilanluna/csv-parser.git"
+  },
+  "keywords": [
+    "parser",
+    "csv",
+    "csv-files",
+    "csv-parser"
+  ],
+  "author": "Dylan Luna <me@dilanluna.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dilanluna/csv-parser/issues"
+  },
+  "homepage": "https://github.com/dilanluna/csv-parser#readme",
+  "devDependencies": {
+    "@babel/cli": "7.18.6",
+    "@babel/core": "7.18.6",
+    "@babel/preset-env": "7.18.6",
+    "@babel/preset-typescript": "7.18.6",
+    "@types/node": "18.0.3",
+    "rimraf": "3.0.2",
+    "semantic-release": "19.0.3",
+    "typescript": "4.7.4"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}

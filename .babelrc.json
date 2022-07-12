@@ -1,0 +1,6 @@
+{
+  "targets": {
+    "node": "10"
+  },
+  "presets": ["@babel/env", "@babel/typescript"]
+}
