@@ -13,11 +13,6 @@
     "typing": "tsc --emitDeclarationOnly",
     "build": "npm run clean && npm run transpile && npm run typing"
   },
-  "release": {
-    "branches": [
-      "main"
-    ]
-  },
   "publishConfig": {
     "access": "public"
   },
