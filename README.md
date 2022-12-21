@@ -1,6 +1,6 @@
 # CSV Parser
 
-![Build](https://img.shields.io/github/workflow/status/dilanluna/csv-parser/Release/main) ![Version](https://img.shields.io/npm/v/@dilanluna/csv-parser) ![Node Version](https://img.shields.io/node/v/@dilanluna/csv-parser) ![License](https://img.shields.io/github/license/dilanluna/csv-parser)
+![Build](https://img.shields.io/github/actions/workflow/status/dilanluna/csv-parser/release.yml?branch=main) ![Version](https://img.shields.io/npm/v/@dilanluna/csv-parser) ![Node Version](https://img.shields.io/node/v/@dilanluna/csv-parser) ![License](https://img.shields.io/github/license/dilanluna/csv-parser)
 
 Simple and lightweight package to parse csv files into javascript objects.
 
